@@ -80,7 +80,6 @@ span {
   font-family: "Times New Roman";
   margin-left: 8px;
 }
-
 /* Destinations*/
 h2 {
   background-color: #765685a6;
@@ -94,6 +93,7 @@ h2 {
   margin-bottom: 0px;
   padding-bottom: 0px;
   font-size: 29px;
+  border: 2px solid;
 }
 /*images*/
 #desM {
