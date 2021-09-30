@@ -1,0 +1,95 @@
+/*Background*/
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: antiquewhite;
+}
+#nav {
+  background-image: url(h7.jpg);
+  background-position: center;
+  height: 250px;
+}
+#home {
+  margin-top: 1em;
+  background-color: rgba(0, 0, 0, 0.562);
+  margin-left: 420px;
+  margin-right: 300px;
+  color: antiquewhite;
+  font-size: 25px;
+}
+/*Naviagtion bar*/
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+.logo {
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 0px;
+  margin-right: 90px;
+}
+h4 a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+span {
+  font-size: 14px;
+}
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+.menu ul {
+  float: left;
+  display: flex;
+  justify-item: center;
+  alighn-items: center;
+  background-color: rgba(0, 0, 0, 0.582);
+  padding-left: 0px;
+  padding-right: 50px;
+}
+.menu ul li {
+  list-style: none;
+  margin-left: 50px;
+  margin-top: 27px;
+  font-size: 19px;
+  margin-top: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+.menu ul li a:hover {
+  color: rgb(115, 68, 158);
+}
+/* End of Navigation bar */
+#destinations,
+#highlights {
+  font-family: "Times New Roman";
+  margin-left: 8px;
+}
+/* Destinations*/
+h2 {
+  background-color: #765685a6;
+  color: #202125;
+  font-weight: bold;
+  padding-left: 2em;
+  margin-right: 34em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 24px;
+}
