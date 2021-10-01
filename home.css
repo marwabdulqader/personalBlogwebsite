@@ -50,8 +50,6 @@ span {
 .menu ul {
   float: left;
   display: flex;
-  justify-item: center;
-  alighn-items: center;
   background-color: rgba(0, 0, 0, 0.582);
   padding-left: 0px;
   padding-right: 50px;
@@ -107,7 +105,6 @@ h2 {
   border: 3px solid;
   border-color: #765685;
   padding: 0.1px;
-  float: center;
   margin-left: 3em;
   margin-top: 0;
 }
