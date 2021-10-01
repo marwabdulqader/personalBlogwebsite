@@ -69,6 +69,7 @@ span {
   color: peru;
 }
 /* End of Navigation bar */
+
 #about,
 #started,
 #where {
@@ -89,7 +90,7 @@ span {
 /* Images*/
 #HM,
 #HM1,
-#HW2 {
+#HM2 {
   float: right;
   font-size: 0;
   height: 200px;
@@ -102,7 +103,11 @@ span {
   width: 250px;
   padding-right: 2em;
 }
-
+#HM2 {
+  height: 150px;
+  width: 250px;
+}
+/* Headers*/
 h2 {
   margin-top: 1em;
   background-color: rgba(0, 0, 0, 0.562);
