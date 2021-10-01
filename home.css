@@ -96,7 +96,9 @@ h2 {
   border: 2px solid;
 }
 /*images*/
-#desM {
+#desM,
+#desM1,
+#desM2 {
   float: left;
   width: 20em;
   height: 10em;
