@@ -81,6 +81,23 @@ span {
   font-size: 16px;
   font-family: "Times New Roman";
 }
+#culture p,
+#history p,
+#places p,
+#food p,
+#currency p,
+#Tips li {
+  margin-right: 20em;
+  margin-left: 2em;
+  line-height: 1.2;
+  font-size: 16px;
+}
+#currency p {
+  margin-left: 2em;
+}
+#Tips ul {
+  padding-bottom: 2em;
+}
 h2 {
   background-color: rgba(68, 127, 245, 0.301);
   height: 1.5em;
@@ -108,4 +125,15 @@ h1 {
   font-size: 50px;
   padding-left: 2.4em;
   font-size: 60px;
+}
+/* images*/
+#SY,
+#HM1,
+#HM2 {
+  float: right;
+  font-size: 0;
+  height: 200px;
+  width: 250px;
+  border: 2px solid;
+  margin-right: 10px;
 }

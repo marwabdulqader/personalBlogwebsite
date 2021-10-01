@@ -1,6 +1,14 @@
 /*Background*/
 body {
-  background-color: rgba(204, 223, 245, 0.74);
+  margin: 0px;
+  padding: 0px;
+  background-color: antiquewhite;
+}
+#nav {
+  background-image: url(p3.jpg);
+  background-size: cover;
+  border-bottom: 2px solid;
+  height: 650px;
 }
 /*Naviagtion bar*/
 .navbar {
@@ -23,7 +31,7 @@ body {
 }
 h4 a {
   text-decoration: none;
-  color: rgb(170, 170, 170);
+  color: rgba(243, 243, 243, 0.952);
 }
 span {
   font-size: 14px;
@@ -59,6 +67,59 @@ span {
   transition: 0.4s ease-in-out;
 }
 .menu ul li a:hover {
-  color: rgb(115, 68, 158);
+  color: rgba(201, 103, 24, 0.979);
 }
 /* End of Navigation bar */
+#culture,
+#history,
+#places,
+#food,
+#currency,
+#Tips {
+  margin-left: 0.5em;
+  margin-right: 3em;
+  font-size: 16px;
+  font-family: "Times New Roman";
+}
+#culture p,
+#history p,
+#places p,
+#food p,
+#currency p,
+#Tips li {
+  margin-right: 20em;
+  margin-left: 2em;
+  line-height: 1.2;
+  font-size: 16px;
+}
+#Tips ul {
+  padding-bottom: 2em;
+}
+h2 {
+  background-color: rgba(170, 68, 9, 0.589);
+  height: 1.5em;
+  width: 13em;
+  color: #202125;
+  font-weight: bold;
+  padding-top: 6px;
+  padding-left: 1em;
+  margin-right: 34em;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 29px;
+  border: 2px solid;
+}
+/* Syria header*/
+h1 {
+  margin-top: 4em;
+  background-color: rgba(0, 0, 0, 0.562);
+  margin-left: 720px;
+  margin-bottom: 4.6em;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-right: 0.45em;
+  color: antiquewhite;
+  font-size: 50px;
+  padding-left: 2.4em;
+  font-size: 60px;
+}
